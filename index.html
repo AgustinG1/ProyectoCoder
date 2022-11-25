@@ -5,75 +5,145 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Burger Fenix</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/styles.css">
+
     </head>
     <body>
     <header>
-        <img src="./images/logo.jpg" alt="Logo" width="70" height="70">
-        <h1>Burger Fenix</h1>
-        <nav>
-            <ul>
-           <li><a href="#">Inicio</a> </li>
-            <li><a href="./pages/menu.html">Menu</a></li>
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/franquicias.html">Franquicias</a></li>
-           <li><a href="./pages/contacto.html">Contacto</a></li>
+       
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navegador">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.jpg" alt="" width="50" height="50" class="d-inline-block align-text-top">
+                Burger Fenix
+              </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-end w-100">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/franquicias.html">Franquicias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header> 
-    <section class="caja">
-        <div class="wrap">         
+    <section class="caja h-75 ">
+        <div class="wrap container">         
         <h2 class="InicioTexto"> Natural & Fresh</h2>
         <p>Disfruta las mejores hamburguesas</p>
         </div>
         </section>
-        <!--Imagenes de hamburguesas con bordes redondeados border-radius: 50%;-->
-       <section class="imagenesBurgers">
-            <h3 class="subtitulo">Prueba nuestras burgers 100% carne o nuestro pollo crispy</h3>
-            <img src="./images/utensils-solid.svg" alt=""width="30" height="30">
-            <img src="./images/Burger1.webp" class="imagenPortada" alt="burger1">  
-            <img src="./images/Burger 5.jpg" class="imagenPortada" alt="burger2">
+
+        <div>
+          <h3 class="subtitulo text-center mb-1 text-decoration-underline mt-3">Prueba nuestras burgers 100% carne o nuestro pollo crispy</h3>
+          <img src="./images/utensils-solid.svg" alt=""width="30" height="30" class="d-flex icono-inicio position-relative">
+        </div>
+       <section class="imagenesBurgers container-fluid  ">       
+            <img src="./images/Burger 6.jpg" class="imagenPortada" alt="burger1">  
+            <img src="./images/burger inicio.jpg" class="imagenPortada" alt="burger2">
             <img src="./images/Burger 4.webp" class="imagenPortada" alt="burgerz">
             <img src="./images/pollocr.jpg" class="imagenPortada" alt="polloburger">
        </section>
-    <main class="imagenContenidoPrincipal">
-        <div>
-        <section class="contenidoPrincipal">        
-                <h4>Contenido Principal</h4>
-                
-                <h4 class="ParrafoWrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique fugiat adipisci iusto nemo possimus maiores omnis hic dolorum fugit? Praesentium similique fugit optio quis illo vero accusamus fugiat minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum iusto ab unde porro non aliquid dicta beatae quidem dolore nulla ex corrupti et cupiditate tempora incidunt, odio quos omnis.</h4>
-             </div>
-             <div>
-              <a href="./pages/nosotros.html"><button class="boton">Nosotros</button></a>
-             </div>
-        </section>
+    <main class="imagenContenidoPrincipal ">
+      <section class="container">
+    <div class="contenidoPrincipal row">        
+         <h4 class="fs-3">EL EQUIPO</h4>
+          <h4 class="ParrafoWrap row">Somos una empresa seria y responsable en el rubro gastronómico conformada por emprendedores con más de 20 años de experiencia. Tenemos una propuesta inovadora de Pop-up Stores montados en contenedores reciclandos totalmente equipados, que prometen al visitante una experiencia única, garantizando la calidad y la originalidad de nuestros productos.</h4>
+     </div>
+     <div>
+        <a href="./pages/nosotros.html"><button class="boton">Nosotros</button></a>
+    </section>
+     </div>
+    </div>
+    
     </main>
     
-    <footer>
-        <div>
-            <h5 class="footerSubtitulo">Burger Fenix</h5>
+    <footer class=" text-center text-white  ">  
+      <div class="container p-4 footer  d-flex justify-content-around ">  
+          <section class="mb-4 d-flex fs-3 d-flex justify-content-center align-items-center align-content-center  ">
+            <p>
+              Buger Fenix
+            </p>
+          </section>
+      
+       <section class="container col-sm-8 ">
+        <div class="row mx-5 h6 small d-flex footer">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Visitanos</h5>
+    
+            <ul class="list-unstyled mb-0 ">
+              <li>
+                <p>Av. Callao 2092, CABA </p>
+              </li>
+              <li>
+                <p>Italia 491, Lomas de Zamora, Provincia de Buenos Aires</p>
+              </li>
+             
+            </ul>
+          </div>
+    
+    
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Llamanos</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+               <p>011-6052-0367</p>
+              </li>
+              <li>
+                <p>011-1122-5411</p>
+              </li>
+            </ul>
+          </div>
+    
+    
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Redes sociales</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+               
+              </li>
+              <li>
+                <a href="#!" class="text-white">Instagram</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Facebook</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Whatsapp</a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
-        <div class="calles">
-            <h5>Visitanos</h5>
-            <p>Calle 123</p>
-            <p>Calle 123</p>
-        </div>
-        <div class="numerosFooter">
-            <h5>Llamanos</h5>
-            <p>1160520367</p>
-        </div>
-        <div class="redes">
-        <h5>Rede sociales</h5>
-        <!--Aqui deberia agregar los links a las redes sociales-->
-        <ul>
-            <li><a href=""></a><img src="./images/square-facebook.svg" alt="" width="30" height="30"></li>
-            <li><a href=""></a><img src="./images/square-instagram.svg" alt="" width="30" height="30"></li>
-            <li><a href=""></a><img src="./images/square-whatsapp.svg" width="30" height="30" alt=""></li>
-            
-        </div>
-            <p>© Derechos reservados 2022</p>
-        </ul>
-    </footer>
+
+      </section>
+    </div>
+      
+        <div class="text-center p-3" style="background-color: rgba(3, 58, 12, 0.2);">
+            © 2022 Copyright
+          </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
    
 </html>

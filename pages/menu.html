@@ -5,104 +5,289 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Burger Fenix</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
     <header>
-        <img src="../images/logo.jpg" alt="Logo" width="70" height="70">
-        <h1>Burger Fenix</h1>
-        <nav>
-            <ul>
-           <li><a href="../index.html">Inicio</a> </li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="../pages/nosotros.html">Nosotros</a></li>
-            <li><a href="../pages/franquicias.html">Franquicias</a></li>
-           <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+       
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navegador ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.jpg" alt="" width="50" height="50" class="d-inline-block align-text-top">
+                Burger Fenix
+              </a>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav justify-content-end w-100">
+              <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="franquicias.html">Franquicias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header> 
     <main>
-        <section><!--Aqui van unas fotos del menu, que pienso cambiar a proximamente-->
-              <h1>Burgers</h1>
-              <div>
-                <div class="cajaImagen">
-              <img src="../images/Burger 2.webp" alt="ImagenDeHamburguesa1" width="410px" height="410px"></div>   
-              <div class="cajaImagen">     
-                <img src="../images/Burger 3.jpg" alt="ImagenDeHamburguesa1" width="410px" height="410px"></div>  
-                <div class="cajaImagen">         
-              <img src="../images/Burger 4.webp" alt="ImagenDeHamburguesa3" width="410px" height="410px"></div>
-                <div class="cajaImagen">
-              <img src="../images/Burger 5.jpg" alt="ImagenDeHamburguesa4" width="410px" height="410px"> </div>
-               <div class="cajaImagen">
-              <img src="../images/burger inicio.jpg" alt="ImagenDeHamburguesa5" width="410px" height="410px"><div class="cajaImagen">
-                <div class="cajaImagen">
-              <img src="../images/Burger0.webp"alt="ImagenDeHamburguesa6" width="410px" height="410px"></div>
+      <div>
+        <h2 class="text-center bg-gradient h2Burger">Burgers</h2>
+      </div>
+        <section class="d-flex justify-content-center row mx-0 seccionHamburguesa">
 
-            </div>
-          </section>
-          <section>
-                <div >
-                    <h2>Pollos Crispys</h2>
-
-                     <div class="cajaImagen">
-                    <img src="../images/blog-deli-sanduche.jpg" alt="PolloCrispy"width="410px" height="410px"></div>
-                     <div class="cajaImagen">
-                    <img src="../images/sm.webp" alt="PolloCrispy"width="410px" height="410px"></div>
-                     <div class="cajaImagen">
- 
-                    <img src="../images/pollocr.jpg" alt="PolloCrispy"width="410px" height="410px"></div>
-       
-                    <h2>Ensaladas</h2>
-                     <div class="cajaImagen">
-                    <img src="../images/salteado-de-verduras-con-pollo-y-arroz-1.jpg" alt="Ensaladas"width="410px" height="410px"></div>
-                     <div class="cajaImagen">
-
-                    <img src="../images/ensalada-rucula-y-parmesano-1.jpg" alt="Ensaladas"width="410px" height="410px"></div>
-
-                     <div class="cajaImagen">
-                    <img src="../images/Ensaladas-originales.jpg" alt="Ensaladas"width="410px" height="410px"></div>
-
-                    <h2>Papas fritas</h2>
-                     <div class="cajaImagen">
-                    <img src="../images/papas-fritas-con-queso-cheddar-y-tocino-layout-youtube-recetas.jpg" alt="PapasFritas"width="410px" height="410px"></div>
-
-                     <div class="cajaImagen">
-                    <img src="../images/receta-de-patatas-con-salsa-de-queso.webp" alt="PapasFritas"width="410px" height="410px"></div>
-                     <div class="cajaImagen">                  
-                   
-                   <img src="../images/12851a77-papas-fritas-con-cheddar_l_es_thumbmp4.png" alt="PapasFritas"width="410px" height="410px"></div>
-                    
-                   <!--<h2>Nuggets</h2>
-                    <h2>Postres</h2> faltarian imagenes--> 
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mb-1 cartasMenu container  ">
+            <div class="col">
+              <div class="card menus imgHover">
+                <img src="../images/Burger 2.webp" class="card-img-top h-75 " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hamburguesa</h5>
+                  <p class="card-text">$1000</p>
                 </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 menus imgHover">
+                <img src="../images/Burger 3.jpg" class="card-img-top h-75 " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hamburguesa</h5>
+                  <p class="card-text">$1000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 menus imgHover">
+                <img src="../images/Burger 5.jpg" class="card-img-top h-75 " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hamburguesa</h5>
+                  <p class="card-text">$1000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mb-5 cartasMenu container  ">
+            <div class="col">
+              <div class="card menus imgHover">
+                <img src="../images/Burger 6.jpg" class="card-img-top h-75 " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hamburguesa</h5>
+                  <p class="card-text">$1000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card menus imgHover">
+                <img src="../images/triple-burger.jpg" class="card-img-top h-75 " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hamburguesa</h5>
+                  <p class="card-text">$1000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card menus imgHover">
+                <img src="../images/Burger 4.webp" class="card-img-top h-25 " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hamburguesa</h5>
+                  <p class="card-text">$1000</p>
+                </div>
+              </div>
+            </div>
+          </div>
           </section>
+         
+          
+                <div>
+                  <h2 class="text-center bg-gradient">Pollos Crispys</h2>
+                </div>
+                    
+                  
+                    <section class="d-flex justify-content-center row mx-0 seccionHamburguesa">
+
+                      <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mb-1 cartasMenu container  ">
+                        <div class="col">
+                          <div class="card menus imgHover">
+                            <img src="../images/blog-deli-sanduche.jpg " class="card-img-top h-75 " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 menus imgHover">
+                            <img src="../images/sm.webp" class="card-img-top h-75 " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 menus imgHover">
+                            <img src="../images/Burger pollo.jpg" class="card-img-top h-75 " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     
+                      </section>
+       
+                    <h2 class="text-center bg-gradient">Ensaladas</h2>
+                    <section class="d-flex justify-content-center row mx-0 seccionHamburguesa">
+
+                      <div class="row row-cols-1 row-cols-md-3 g-4 mt-1 mb-1 cartasMenu container  ">
+                        <div class="col">
+                          <div class="card menus imgHover">
+                            <img src="../images/Ensaladas-originales.jpg" class="card-img-top h-75 " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 menus imgHover">
+                            <img src="../images/ensalada-rucula-y-parmesano-1.jpg" class="card-img-top h-75 " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 menus imgHover">
+                            <img src="../images/salteado-de-verduras-con-pollo-y-arroz-1.jpg" class="card-img-top h-75 " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                     
+                      </section>
+
+                    <h2 class="text-center bg-gradient">Papas fritas</h2>
+                    <section class="d-flex justify-content-center row mx-0 seccionHamburguesa">
+
+                      <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 mb-5 cartasMenu container  ">
+                        <div class="col">
+                          <div class="card menus imgHover">
+                            <img src="../images/papas-fritas-con-queso-cheddar-y-tocino-layout-youtube-recetas.jpg" class="card-img-top h-75  imgHover" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 menus imgHover">
+                            <img src="../images/12851a77-papas-fritas-con-cheddar_l_es_thumbmp4.png" class="card-img-top h-75  imgHover" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 menus imgHover imgHover">
+                            <img src="../images/receta-de-patatas-con-salsa-de-queso.webp" class="card-img-top h-75 " alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa</h5>
+                              <p class="card-text">$1000</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      </section>
     </main>
     
-    <footer>
-        <div>
-            <h5 class="footerSubtitulo">Burger Fenix</h5>
+    <footer class=" text-center text-white  ">  
+      <div class="container p-4 footer d-flex justify-content-around ">  
+          <section class="mb-4 d-flex fs-3 d-flex justify-content-center align-items-center align-content-center ">
+            <p>
+              Buger Fenix
+            </p>
+          </section>
+      
+       <section class="container col-sm-8 ">
+        <div class="row mx-5 h6 small d-flex footer">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Visitanos</h5>
+    
+            <ul class="list-unstyled mb-0 ">
+              <li>
+                <p>Av. Callao 2092, CABA </p>
+              </li>
+              <li>
+                <p>Italia 491, Lomas de Zamora, Provincia de Buenos Aires</p>
+              </li>
+             
+            </ul>
+          </div>
+    
+    
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Llamanos</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+               <p>011-6052-0367</p>
+              </li>
+              <li>
+                <p>011-1122-5411</p>
+              </li>
+            </ul>
+          </div>
+    
+    
+    
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Redes sociales</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+               
+              </li>
+              <li>
+                <a href="#!" class="text-white">Instagram</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Facebook</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Whatsapp</a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
-        <div class="calles">
-            <h5>Visitanos</h5>
-            <p>Calle 123</p>
-            <p>Calle 123</p>
-        </div>
-        <div class="numerosFooter">
-            <h5>Llamanos</h5>
-            <p>1160520367</p>
-        </div>
-        <div class="redes">
-        <h5>Rede sociales</h5>
-        <!--Aqui deberia agregar los links a las redes sociales-->
-        <ul>
-            <li><a href=""></a><img src="../images/square-facebook.svg" alt="" width="30" height="30"></li>
-            <li><a href=""></a><img src="../images/square-instagram.svg" alt="" width="30" height="30"></li>
-            <li><a href=""></a><img src="../images/square-whatsapp.svg" width="30" height="30" alt=""></li>
-            
-        </div>
-            <p>© Derechos reservados 2022</p>
-        </ul>
-    </footer>
+
+      </section>
+    </div>
+      
+        <div class="text-center p-3" style="background-color: rgba(3, 58, 12, 0.2);">
+            © 2022 Copyright
+          </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
    
 </html>
