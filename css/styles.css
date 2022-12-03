@@ -20,7 +20,7 @@ body{
 .imgHover:hover{
 transform:scale(1.1);
 z-index: 10;
-cursor: zoom-out;
+cursor:pointer;
 
 }
 
@@ -168,13 +168,6 @@ h4{
 .boton:hover{
     color: #FFFFFF;
 }
- .formulario{ 
-    height: 44rem !important;
-    width: 30rem !important;
-
- background-color: #00796b94;
-
- }
 
 .carta{
    bottom: 40rem !important;
@@ -185,6 +178,14 @@ h4{
     height: 110% !important;
 }
 
+.menuBg{
+    background-image: linear-gradient(to top, #f86c41, #fa673a, #fc6232, #fd5d2b, #ff5722);
+}
+.nuestroMenu{
+    color: #ff9900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 .cartasMenu{
     width: 85% !important;
     height: 85%!important;
@@ -197,9 +198,7 @@ h4{
 
 }
 
- .h2Burger{
-    transform: scale()
- }
+
 .nosotros{
 left: 2rem;
 background-color: #049c8bad;
@@ -216,6 +215,98 @@ top: 6rem;
     margin: 0;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.formulario{
+    background-color: #049c8ac0;
+}
+
+.cajaForm{
+    box-shadow: 0 0 20px 0 rgba(1, 163, 101, 0.473);
+}
+
+
+
+
+
+
+.ContactoFormulario form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ContactoFormulario form label {
+    display: block;
+}
+
+.ContactoFormulario form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.ContactoFormulario form .block {
+    grid-column: 1 / 3;
+}
+
+.ContactoFormulario form button,
+.ContactoFormulario form input,
+.ContactoFormulario form textarea {
+    width: 100%;
+    padding: .7em;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #ffb76f;
+}
+
+.ContactoFormulario form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.ContactoFormulario form button:hover,
+.ContactoFormulario form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+.contact-info {
+    background: #049c8a9d;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+
+
+
+
 
 
 .franquicia{
@@ -285,19 +376,17 @@ top: 6rem;
             }
     }
  
-
+   .span-uno{
+                color: #00796be1;
+        
+   }
     .imagenConcepto{
         width: 30rem !important;
         height: 20rem;
     }
     @media (max-width: 576px){
         .formulario{
-            width: 10rem !important;
-            background-color:#058d7de8;
-            position: relative;
-            right: 6rem;
-            
-           
+            background-color:#058d7de8;      
         }
           
            
@@ -305,25 +394,10 @@ top: 6rem;
 
     @media (max-width: 768px){
         .formulario{
-            width: 30rem !important;
             background-color:#058d7de8;
       
-        }    
-            .carta{
-                width: 30rem;
-                top: 0rem;
-             }
-             
+        }         
     }
-
-    @media (max-width: 992px){
-        .carta{
-            width: 45rem !important;
-        
-            top: 0rem;
-        }
-    }
-
 
     @media (max-width: 576px){
        .caja{
@@ -358,4 +432,7 @@ top: 6rem;
             
           
         }
+    }
+    .cajaNosotros{
+        background-image: url(../images/Burger\ 4.webp)
     }
