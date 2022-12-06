@@ -1,0 +1,34 @@
+body{
+    background-image: $body-gradiante;
+    margin: 0%;
+    height: 100vh;
+
+        .bodyFranquicia{
+            background-image: url(../images/local_dos.jpg);
+            }
+            .caja{
+                    background-image: url(../images/burger.jpg);
+                    height: 70%;
+                    
+                }   
+                    section .wrap{
+                        background-color: map-get($map: $envolturaInicio, $key:cajita );
+                        width: map-get($map: $envolturaInicio, $key:ancho );
+                        backdrop-filter: map-get($map:$envolturaInicio , $key: blur);
+                        border: map-get($map: $envolturaInicio, $key:bordes ) ;
+                        border: map-get($map: $envolturaInicio, $key:bordess ) ;
+                    }
+                    .parraf{
+                        color: $color-verde-oscuro;
+                       
+                    }    
+                    .icono{
+                        position: relative;
+                        left: 10px;
+                       }
+                       .icono:hover{
+                           color: $color-principal;
+                         
+                       }         
+    }
+ 

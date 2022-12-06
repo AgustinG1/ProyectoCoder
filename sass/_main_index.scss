@@ -1,0 +1,39 @@
+
+main{
+    .subtitulo{
+        animation-duration: 4s;
+    }
+    .imagenPortada{
+     @include radioHamburguesa
+    }
+
+    
+            .imagenContenidoPrincipal {
+                
+                background-image: url(../images/burger65.jpg);
+                height: ($altura/2)+250;
+                
+            }
+
+                .contenidoPrincipal{
+                    @include equipo
+                }
+                    .ParrafoWrap{
+                        @include cajaNaranja;
+                    
+                
+                    }
+                        .ParrafoWrap:hover{
+                                @include  blurVerde;
+                           
+                        }
+                    
+                            .boton{
+                                @include botonn;
+                            }
+                   
+                                    .boton:hover{
+                                        color: $color-secundario-letras;
+
+                                }                                  
+    }

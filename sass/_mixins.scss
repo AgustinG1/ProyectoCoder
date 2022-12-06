@@ -1,0 +1,71 @@
+@mixin grid-columns-row($columns,$row){
+    display:grid;
+    grid-template-columns:repeat($columns, 1fr);
+    grid-template-rows:repeat($row, 1fr);
+}
+
+@mixin caja ($a:100px,$alt:200px) {
+
+    height:$a;
+    width: $alt;
+} 
+
+
+@mixin radioHamburguesa($r:200px,$an:310px,$al:310px,$mr:60px){
+    border-radius: $r;
+    width: $an;
+    height: $al;
+    margin-right: $mr;
+}
+
+
+@mixin cajaNaranja($f:15px,$cb:#0f0f0f,$b: 2px solid #2121211e,$an:400px,$alt:200px,$blur:blur(0,5px),$boxshadow: 0 10px 30px rgba(238, 129, 4, 0.336), $bgc: rgba(255, 120, 9, 0.432)) {
+                    font-size: $f;
+                    color: $cb;
+                    border: $b;
+                    width: $an;
+                    height: $alt;
+                    backdrop-filter: $blur;
+                    box-shadow: $boxshadow ;
+                    background-color: $bgc;
+    
+}
+
+
+@mixin equipo($color-letras:#f4ecec,$fuente:sans-serif,$fs:150%) {
+    color:$color-letras;
+    font-family: $fuente;
+    font-size: $fs; 
+}
+
+@mixin botonn ($color: #FF5722,$bord: 1px solid black,$alt:32px,$radio:100px,$fs:16px,$bgc: #212121){
+    background-color: $bgc;
+    color: $color;
+    border: $bord;
+    font-size: $fs;
+    font-weight: bold;
+    border-radius:$radio;
+    position: relative;
+    left: 15rem;
+    height: $alt;
+    bottom: 55px;    
+}
+@mixin blurVerde($blur:blur(0,5px),$boxShadow:0 10px 30px rgba(1, 119, 70, 0.473),$bgc:rgba(9, 255, 222, 0.329)){
+    backdrop-filter: $blur;
+    box-shadow: $boxShadow ;
+    background-color: $bgc;
+    transition: background-color 4s;
+}
+
+
+@mixin flex-direction-justificar($direction,$justify:$center){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:$justify;
+}
+@mixin   radius-width-height-margin($radius,$ancho,$altura,$margin-right){
+    border-radius: $radius;
+    width: ($ancho/2)-90;
+    height: ($altura/2)+110;
+    margin-right: $margin-right;
+}

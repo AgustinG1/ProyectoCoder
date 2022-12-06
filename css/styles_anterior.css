@@ -5,7 +5,7 @@ body{
     
     }
 .bodyFranquicia{
-    background-image: url(../images/Local-dos.jpg);
+    background-image: url(../images/local_dos.jpg);
 
 }
 .carta-f{
@@ -60,7 +60,7 @@ nav a:hover{
     }
 .caja{
      
-    background-image: url(../images/burger\ inicio.jpg);
+    background-image: url(../images/burger_inicio.jpg);
     height: 60%;
     display: flex;
     justify-content: center;
@@ -194,7 +194,7 @@ h4{
     background-color: #00796bd7;
 }
 .seccionHamburguesa{
-    background-image: url(../images/MENU\ BURGER.jpg);
+    background-image: url(../images/MENU_BURGER.jpg);
 
 }
 
@@ -215,17 +215,6 @@ top: 6rem;
     margin: 0;
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -401,7 +390,7 @@ ul {
 
     @media (max-width: 576px){
        .caja{
-        background-image: url(../images/burger\ inicio2.jpg);
+        background-image: url(../images/burger_inicio_2.jpg);
        
        }
             .imagenesBurgers{
@@ -425,7 +414,7 @@ ul {
 
     @media (max-width: 992px){
         .caja{
-         background-image: url(../images/burger\ inicio2.jpg);
+         background-image: url(../images/burger_inicio_2.jpg);
         }
         .imagenesBurgers{
             padding-left: 10rem;
@@ -434,5 +423,5 @@ ul {
         }
     }
     .cajaNosotros{
-        background-image: url(../images/Burger\ 4.webp)
+        background-image: url(../images/Burger_4.webp)
     }

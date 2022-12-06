@@ -1,0 +1,40 @@
+main{
+    .menuBg{
+        background-image: linear-gradient(to top, #f86c41, #fa673a, #fc6232, #fd5d2b, #ff5722);
+    }
+        .nuestroMenu{
+            color: $amarillo-menu;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            @include caja ($a:100px,$alt:200px);
+          
+        }
+           
+        .cartasMenu{
+            width: 85% !important;
+            height: 85%!important;
+
+                .menus{
+                    background-color: #00796bd7; 
+                }
+            }
+            
+                    .seccionHamburguesa{
+                        background-image: url(../images/menu.jpg);
+                   
+                        .imgHover:hover{
+                            transform:scale(1.1);
+                            z-index: 10;
+                            cursor:pointer;
+                            }
+                        }
+                        .carta-f{
+                            background-color: #00796bd7;
+                            width: 30rem !important;
+                        }   
+                                    .imagenFranq{
+                                        height: 40%;
+                                        object-fit: cover;
+                                    }   
+                                   
+                                }
