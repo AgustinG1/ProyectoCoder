@@ -49,13 +49,13 @@ main{
                     padding: 1em;
                 }
                                                             
-                                .ContactoFormulario form button:hover,
-                                .ContactoFormulario form button:focus {
-                                    background: #d63031;
-                                    color: $color-secundario-letras;
-                                    transition: background-color 1s ease-out;
-                                    outline: 0;
-                                } 
+                    .ContactoFormulario form button:hover,
+                    .ContactoFormulario form button:focus {
+                        background: #d63031;
+                        color: $color-secundario-letras;
+                        transition: background-color 1s ease-out;
+                        outline: 0;
+                    } 
                              
                                     .contact-info {
                                         background: map-get($map: $coloresGenerales, $key: verdePrincipal);
