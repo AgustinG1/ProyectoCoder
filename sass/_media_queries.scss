@@ -1,0 +1,107 @@
+/*franquicia*/
+
+@media (min-width: 576px){ main{
+    
+    .carta-f {
+        width: 80%;
+        }
+    
+        .imagenFranquiciaa{
+            width:($ancho/2)+160;
+        }
+    }
+            .maps{
+                width: ($ancho/2)+60;
+                height: ($altura/2)+160;
+            }
+        
+    }
+@media (min-width: 765px){  main{
+        .carta-f {
+            width: 60%;
+        }
+            .imagenFranquiciaa{
+                width: $ancho;
+            }
+        }
+            .maps{
+                width: ($ancho/2)+32;
+                height: ($altura/2)+120;
+            }
+    }
+@media (min-width: 992px){main{
+        .carta-f {
+            width: 50%;
+        }
+    }
+            .maps{
+                width: ($ancho/2)+80;
+                height: ($altura/2)+120;
+            }
+    }
+
+    /*formulario*/ 
+    @media (max-width: 576px){ main{
+        .formulario{
+            background-color:#058d7de5;      
+            }
+        }    
+    }
+
+    @media (max-width: 768px){ main{
+        .formulario{
+            background-color:#058d7de8;
+            }
+        }         
+    }
+
+    /*index*/
+     @media (max-width: 576px){ body{
+       .caja{
+            background-image: url(../images/burger_7.jpg);
+       }
+    
+            .imagenPortada{
+                padding-left: 10px;
+                position: relative;
+                left: 6rem;
+            }
+                .ParrafoWrap{
+                    background-color:#e53c0883;
+                    
+                }
+                    .contenidoPrincipal{
+                        margin-left: 7rem;                      
+                    }
+                    .boton{
+                        width: ($ancho/4)-40;
+                    }
+   
+    }
+}
+    @media (max-width: 768px) { body{
+            .caja{
+                background-image: url(../images/burger_7.jpg);
+        }
+
+                .imagenPortada{
+                    padding-left: 10px;
+                    position: relative;
+                    left: 12rem;
+            }
+        }    
+    }       
+
+    @media (max-width: 992px){body{
+        .caja{
+         background-image: url(../images/burger_7.jpg);
+        }
+            .imagenPortada{
+
+                position: relative;
+                left: 10rem;
+            }
+        }
+    }
+
+    /*menu*/

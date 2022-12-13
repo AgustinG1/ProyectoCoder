@@ -853,7 +853,7 @@ progress {
   .row-cols-xxl-auto > * {
     flex: 0 0 auto;
     width: auto;
-  }
+  }footer
 
   .row-cols-xxl-1 > * {
     flex: 0 0 auto;

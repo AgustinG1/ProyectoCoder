@@ -1,0 +1,16 @@
+main{
+    .span-uno{
+        color: $color-verde-oscuro;                   
+    }
+        .cajaNosotros{
+            background-image: url(../images/Burger_4.webp)
+
+        }
+    
+        .parrafo{
+            font-weight: 400; 
+            .negocioLink{
+                color: $color-secundario-letras;
+            }
+        }
+}

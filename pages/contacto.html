@@ -4,76 +4,183 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name=" description" content="Contactanos con el fin de poder hacernos llegar tus dudas y ayudarnos a crecer en este mundo de la gastronomia de fast food "> 
+        <meta name="keywords" content="Formulario,Mensaje,Preguntas,Unirse,Reclamos">
+        <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
         <title>Burger Fenix</title>
-        <link rel="stylesheet" href="../css/styles.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,900&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/estilos.css">
     </head>
-    <body>
+    <body">
     <header>
-        <img src="../images/logo.jpg" alt="Logo" width="70" height="70">
-        <h1>Burger Fenix</h1>
-        <nav>
-        <ul>
-           <li> <a href="../index.html">Inicio</a> </li>
-           <li><a href="../pages/menu.html">Menu</a></li> 
-           <li><a href="../pages/nosotros.html">Nosotros</a></li>
-           <li><a href="../pages/franquicias.html">Franquicias</a></li>
-           <li> <a href="#">Contacto</a></li>
-        </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light navegador">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="../images/logo.png" alt="logo burger Fenix" width="70" height="70" class="d-inline-block align-text-top">
+            </a>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="natural fs-3 mt-4 burgerF"> Burger Fenix </p></a>
+            </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end w-100 mt-4">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html"><p class="navegador">Inicio</p></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/menu.html"><p class="navegador">Menu </p></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html"><p class="navegador">Nosotros</p></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/franquicias.html"><p class="navegador">Franquicias</p></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><p class="navegador">Contacto</p></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header> 
-    <main>
-        <form>
-            <p><label>Email:</label></p>
-            <input type="email" name="email" placeholder="Ingrese su correo" class="formulario">
-            <p><label>Nombre:</label></p>
-            <input type="text" name="nombre" placeholder="Ingrese su nombre" class="formulario">
-            <p><label>Telefono:</label></p>
-            <input type="tel" placeholder="Ingrese su numero" class="formulario">
-            <p><label>Asunto:</label></p>
-            <input type="text" placeholder="Asunto" class="formulario">
-            <p><label>Tu mensaje:</label></p>
-            <textarea name="tu mensaje"cols="30" rows="10" placeholder="Tu mensaje"></textarea>
 
-            <p><label>Local: </label> </p>
-                <input list="Local">
-                <datalist id="Local">
-                <option value="Lomas de zamora"></option>
-                <option value="Recoleta"></option> 
-           
-        </form>
-    </main>
-    <section>
-        <div>
-            <p>
-                 Si tenés alguna consulta, comentario o sugerencia para hacernos, te invitamos a acercarla a través del siguiente formulario y te responderemos a la brevedad.
+    <main class=" ">
 
-            </p> 
+      <div class="content container">
+
+        <h1 class="logo text-center fuente mt-3">Contáctanos </h1>
+
+        <div class="cajaForm animated bounceInUp mb-5">
+            <div class="ContactoFormulario formulario ">
+                <form action="" class="">
+                    <p>
+                       <label for="validationDefault01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationDefault01" required name="fullname">
+                    </p>
+                    <p>
+                      <label for="validationDefault02" class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" id="validationDefault02" required name="email">
+                    </p>
+                    <p>
+                      <label for="validationDefault03" class="form-label">Telefono</label>
+                        <input type="tel" class="form-control" id="validationDefault03" required name="phone">
+                    </p>
+                    <p>
+                      <label for="validationDefault04" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="validationDefault04" required  name="affair">
+                    </p>
+                    <p>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Local</option>
+                        <option value="1">Lomas de Zamora</option>
+                        <option value="2">Recoleta</option>
+                      </select>
+                    </p>
+                    <p class="block ">
+                      <label for="validationDefault05" class="form-label">Tu mensaje:</label> 
+                        <textarea name="message" rows="3" class="form-control" id="validationDefault04" required></textarea>
+                    </p>
+                    <p class="block">
+                        <button><a href="../pages/error404.html"class="fw-bold text-black-50">
+                          Enviar
+                        </a></button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info ">
+                <h2 class="fs-3 text-decoration-underline text-center">Mas info</h2>
+                <ul>
+                    <li><i class="fas fa-phone"></i> (+54) 011 6052 0367</li>
+                </ul>
+                <p class="fuente">Si tenés alguna consulta, comentario o sugerencia para hacernos, te invitamos a acercarla a través del siguiente formulario y te responderemos a la brevedad.</p>
+                <p class="fuente">La información personal que nos envías a través de este formulario será procesada por NotCo para dar respuesta a tus consultas y/o solicitudes en base a los términos señalados en la Política de Privacidad del Sitio.</p>
+            </div>
         </div>
+
+    </div>
+     
+  </main>
+
+  <footer class=" text-center text-white  ">  
+    <div class="container p-4 footer  d-flex justify-content-around ">  
+        <section class="mb-4 d-flex fs-3 d-flex justify-content-center align-items-center align-content-center  ">
+          <a href="#" class="text-body">
+            Buger Fenix
+          </a>
+        </section>
+    
+     <section class="container col-sm-8 ">
+      <div class="row mx-5 h6 small d-flex footer">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Visitanos</h5>
+  
+          <ul class="list-unstyled mb-0  ">
+            <li>
+              <a href="https://www.google.com.ar/maps/place/Av.+Callao+2092,+C1024+AAT,+Buenos+Aires/@-34.5868173,-58.3886053,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccaa4fbbcbc4b:0x344d71ce87fdf3f0!8m2!3d-34.5868217!4d-58.3864166" target="_blank" class="text-white ">Av. Callao 2092, CABA</a>
+            </li>
+          
+            <li>
+              <a href="https://www.google.com/maps/place/DGI,+Italia+491,+B1832+Lomas+de+Zamora,+Provincia+de+Buenos+Aires/@-34.7663622,-58.4022889,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcd2ec47e8535b:0x8b8c4e269804169d!8m2!3d-34.7663622!4d-58.4022889" target="_blank" class="text-white avenida">Italia 491, Lomas de Zamora, Provincia de Buenos Aires</a>
+            </li>
+          </ul>
+          
+        </div>
+
+        <div class="col-lg-3 col-md-6  mb-md-0">
+          <h5 class="text-uppercase">Llamanos</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://web.whatsapp.com/" target="_blank" class="text-white">011-6052-0367</a>
+            </li>
+            <li>
+              <a href="https://web.whatsapp.com/" target="_blank" class="text-white avenida">011-1122-5411</a>
+            </li>
+          </ul>
+        </div>
+  
+  
+  
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Redes sociales</h5>
+          <ul class="list-unstyled mb-0">
+            <li>    
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" class="text-white">Instagram <i class="fa-brands fa-instagram icono" ></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" class="text-white avenida">Facebook <i class="fa-brands fa-facebook-f icono"></i></a>
+            </li>
+            <li>
+              <a href="https://web.whatsapp.com/" target="_blank" class="text-white wsp">Whatsapp<i class="fa-brands fa-whatsapp icono "></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </section>
-    <footer>
-        <div>
-            <h5 class="footerSubtitulo">Burger Fenix</h5>
+  </div>
+    
+      <div class="text-center p-3" style="background-color: rgba(3, 58, 12, 0.2);">
+          © 2022 Copyright
         </div>
-        <div class="calles">
-            <h5>Visitanos</h5>
-            <p>Calle 123</p>
-            <p>Calle 123</p>
-        </div>
-        <div class="numerosFooter">
-            <h5>Llamanos</h5>
-            <p>1160520367</p>
-        </div>
-        <div class="redes">
-        <h5>Rede sociales</h5>
-        <!--Aqui deberia agregar los links a las redes sociales-->
-        <ul>
-            <li><a href=""></a><img src="../images/square-facebook.svg" alt="" width="30" height="30"></li>
-            <li><a href=""></a><img src="../images/square-instagram.svg" alt="" width="30" height="30"></li>
-            <li><a href=""></a><img src="../images/square-whatsapp.svg" width="30" height="30" alt=""></li>
-        </div>
-            <p>© Derechos reservados 2022</p>
-        </ul>
-    </footer>
-    </body>
-   
+      </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a47995bca7.js" crossorigin="anonymous"></script>
+  </body>
+ 
 </html>

@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,900&display=swap");
+/*mapas*/
+header .navegador {
+  background-color: #00796B !important;
+  justify-content: right !important; }
+
+header .navegador {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
+
+header .navegador:hover {
+  color: #f4ecec;
+  font-weight: bold; }
+
+header .burgerF {
+  color: #000; }
+
+body {
+  background-image: linear-gradient(to left, #ff5722, #ff5722, #ff5722, #ff5722, #ff5722, #fd5520, #fa531e, #f8511c, #f34c18, #ee4713, #ea420e, #e53d08);
+  margin: 0%;
+  height: 100vh; }
+  body .bodyFranquicia {
+    background-image: url(../images/local_dos.jpg); }
+  body .caja {
+    background-image: url(../images/burger.jpg);
+    height: 70%; }
+  body section .wrap {
+    background-color: rgba(243, 243, 243, 0.2);
+    width: 350px;
+    backdrop-filter: blur(5px);
+    border: 0 10px 30px #000;
+    border: solid 1px #ffffff40; }
+  body .parraf {
+    color: #02463e; }
+  body .icono {
+    position: relative;
+    left: 10px; }
+  body .icono:hover {
+    color: #FF5722; }
+
+main .subtitulo {
+  animation-duration: 4s; }
+
+main .imagenPortada {
+  border-radius: 200px;
+  width: 310px;
+  height: 310px;
+  margin-right: 60px; }
+
+main .imagenContenidoPrincipal {
+  background-image: url(../images/burger65.jpg);
+  height: 450px; }
+
+main .contenidoPrincipal {
+  color: #f4ecec;
+  font-family: sans-serif;
+  font-size: 150%; }
+
+main .ParrafoWrap {
+  font-size: 15px;
+  color: #0f0f0f;
+  border: 2px solid #2121211e;
+  width: 400px;
+  height: 200px;
+  backdrop-filter: blur(0, 5px);
+  box-shadow: 0 10px 30px rgba(238, 129, 4, 0.336);
+  background-color: rgba(255, 120, 9, 0.432); }
+
+main .ParrafoWrap:hover {
+  backdrop-filter: blur(0, 5px);
+  box-shadow: 0 10px 30px rgba(1, 119, 70, 0.473);
+  background-color: rgba(9, 255, 222, 0.329);
+  transition: background-color 4s; }
+
+main .boton {
+  background-color: #212121;
+  color: #FF5722;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 100px;
+  position: relative;
+  left: 15rem;
+  height: 32px;
+  bottom: 55px; }
+
+main .boton:hover {
+  color: #f4ecec; }
+
+main .formulario {
+  background-color: #00796B !important; }
+
+main .cajaForm {
+  box-shadow: 0 0 20px 0 rgba(1, 163, 139, 0.524); }
+
+main .ContactoFormulario form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  main .ContactoFormulario form .ContactoFormulario form label {
+    display: block; }
+
+main .ContactoFormulario form p {
+  margin: 0;
+  padding: 1em; }
+
+main .ContactoFormulario form .block {
+  grid-column: 1 / 3; }
+
+main .ContactoFormulario form button,
+main .ContactoFormulario form input,
+main .ContactoFormulario form textarea {
+  width: 100%;
+  padding: .7em;
+  background: none;
+  outline: 0;
+  color: #f4ecec;
+  border-bottom: 1px solid #f9af65; }
+
+main .ContactoFormulario form button {
+  background: #B70E21;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+main .ContactoFormulario form button:hover,
+main .ContactoFormulario form button:focus {
+  background: #d63031;
+  color: #f4ecec;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+main .contact-info {
+  background: #00796B; }
+
+main .contact-info h4, main .contact-info ul, main .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+main .span-uno {
+  color: #02463e; }
+
+main .cajaNosotros {
+  background-image: url(../images/Burger_4.webp); }
+
+main .parrafo {
+  font-weight: 400; }
+  main .parrafo .negocioLink {
+    color: #f4ecec; }
+
+main .menuBg {
+  background-image: linear-gradient(to top, #f86c41, #fa673a, #fc6232, #fd5d2b, #ff5722); }
+
+main .nuestroMenu {
+  color: #ff9900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100px;
+  width: 200px; }
+
+main .cartasMenu {
+  width: 85% !important;
+  height: 85% !important; }
+  main .cartasMenu .menus {
+    background-color: #00796bd7; }
+
+main .seccionHamburguesa {
+  background-image: url(../images/menu.jpg); }
+  main .seccionHamburguesa .imgHover:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    cursor: pointer; }
+
+main .carta-f {
+  background-color: #00796bd7;
+  width: 30rem !important; }
+
+main .imagenFranq {
+  height: 40%;
+  object-fit: cover; }
+
+footer {
+  background-color: #00796B;
+  font-weight: 900;
+  color: #f4ecec;
+  justify-content: center; }
+  footer .numerosFooter {
+    font-size: 18px; }
+  footer .redes {
+    font-size: 18px; }
+  footer .footerSubtitulo {
+    font-size: 25px; }
+  footer a {
+    text-decoration: none; }
+  footer .avenida {
+    position: relative;
+    top: 6px; }
+  footer .wsp {
+    top: 10px;
+    position: relative; }
+
+/*franquicia*/
+@media (min-width: 576px) {
+  main .carta-f {
+    width: 80%; }
+  main .imagenFranquiciaa {
+    width: 560px; }
+  .maps {
+    width: 460px;
+    height: 360px; } }
+
+@media (min-width: 765px) {
+  main .carta-f {
+    width: 60%; }
+  main .imagenFranquiciaa {
+    width: 800px; }
+  .maps {
+    width: 432px;
+    height: 320px; } }
+
+@media (min-width: 992px) {
+  main .carta-f {
+    width: 50%; }
+  .maps {
+    width: 480px;
+    height: 320px; } }
+
+/*formulario*/
+@media (max-width: 576px) {
+  main .formulario {
+    background-color: #058d7de5; } }
+
+@media (max-width: 768px) {
+  main .formulario {
+    background-color: #058d7de8; } }
+
+/*index*/
+@media (max-width: 576px) {
+  body .caja {
+    background-image: url(../images/burger_7.jpg); }
+  body .imagenPortada {
+    padding-left: 10px;
+    position: relative;
+    left: 6rem; }
+  body .ParrafoWrap {
+    background-color: #e53c0883; }
+  body .contenidoPrincipal {
+    margin-left: 7rem; }
+  body .boton {
+    width: 160px; } }
+
+@media (max-width: 768px) {
+  body .caja {
+    background-image: url(../images/burger_7.jpg); }
+  body .imagenPortada {
+    padding-left: 10px;
+    position: relative;
+    left: 12rem; } }
+
+@media (max-width: 992px) {
+  body .caja {
+    background-image: url(../images/burger_7.jpg); }
+  body .imagenPortada {
+    position: relative;
+    left: 10rem; } }
+
+/*menu*/
+.natural {
+  font-family: 'Luckiest Guy', cursive; }
+
+.fuente {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+.imagenError {
+  background-image: url(../images/404-error-870x520.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
+
+.botonError {
+  border-radius: 30px;
+  background-color: #212121;
+  color: #FF5722;
+  width: 15rem;
+  height: 3rem;
+  font-size: 30px; }
+
+.botonError:hover {
+  background-color: #FF5722;
+  color: #212121; }
+
+.error {
+  top: 9rem; }
