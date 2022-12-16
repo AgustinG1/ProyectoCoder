@@ -5,6 +5,7 @@ main{
     }
     .imagenPortada{
      @include radioHamburguesa;
+     object-fit: cover;
         
     }
 
