@@ -261,48 +261,54 @@ footer {
   main .formulario {
     background-color: #058d7de8; } }
 
-/*index*/
+/*index - media queries optimizados*/
 @media (max-width: 576px) {
   body .caja {
     background-image: url(../images/burger_7.jpg); }
   body .imagenPortada {
     object-fit: cover;
-    position: relative;
-    left: 7rem; }
+    width: 100%;
+    max-width: 100%;
+    position: static;
+    display: block;
+    margin: 0 auto; }
   body .ParrafoWrap {
     background-color: #e53c0883; }
   body .contenidoPrincipal {
-    margin-left: 7rem; }
+    margin-left: 0;
+    padding: 0 1rem; }
   body .boton {
-    width: 160px; } }
+    width: 160px; }
+  header .logoBurguer {
+    position: static;
+    display: block;
+    margin: 0 auto; } }
 
 @media (max-width: 768px) {
   body .caja {
     background-image: url(../images/burger_7.jpg); }
   body .imagenPortada {
-    margin-left: 7rem;
-    position: relative;
-    left: 13rem;
-    object-fit: cover; } }
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    position: static;
+    display: block;
+    margin: 0 auto; }
+  header .logoBurguer {
+    position: static;
+    display: block;
+    margin: 0 auto; } }
 
 @media (max-width: 992px) {
   body .caja {
     background-image: url(../images/burger_7.jpg); }
   body .imagenPortada {
     object-fit: cover;
-    position: relative;
-    left: 7rem; } }
-
-/*header*/
-@media (max-width: 576px) {
-  header .logoBurguer {
-    position: relative;
-    left: 3rem; } }
-
-@media (max-width: 768px) {
-  header .logoBurguer {
-    position: relative;
-    left: 3rem; } }
+    width: 100%;
+    max-width: 100%;
+    position: static;
+    display: block;
+    margin: 0 auto; } }
 
 .natural {
   font-family: 'Luckiest Guy', cursive; }
