@@ -46,8 +46,8 @@
     font-size: $fs;
     font-weight: bold;
     border-radius:$radio;
-    position: relative;
-    left: 15rem;
+    display: block;
+    margin: 1rem auto 0 auto;
     height: $alt;
     bottom: 55px;    
 }
