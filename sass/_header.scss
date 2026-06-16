@@ -1,0 +1,17 @@
+header{
+    .navegador{
+        background-color: $bgcolor-header;
+        justify-content: right !important;
+    }
+    .navegador{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    .navegador:hover{
+        color:$color-secundario-letras;
+        font-weight: bold;
+    }
+    .burgerF{
+        color: map-get($map: $coloresGenerales, $key: negro );
+        }
+}

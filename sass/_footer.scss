@@ -1,0 +1,28 @@
+footer{
+    background-color: map-get($map: $coloresGenerales, $key:verdePrincipal );    
+    font-weight: 900 ;
+    color: $color-secundario-letras;    
+    justify-content: center;
+    .numerosFooter{ 
+        font-size: 18px;
+    }
+        .redes{     
+            font-size: 18px;
+            }
+            .footerSubtitulo{
+                font-size: 25px;
+                }
+
+                a{
+                    text-decoration: none;
+                }
+                .avenida{
+                    position: $relative;
+                    top: 6px;
+                    
+                   }
+                    .wsp{
+                        top: 10px;
+                        position: $relative;
+                        }
+    }

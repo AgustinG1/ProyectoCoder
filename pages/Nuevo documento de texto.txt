@@ -1,0 +1,26 @@
+  <section class=" ">
+          <div class=" d-flex justify-content-center row row-cols-1 row-cols-md-3 col-lg-3 g-4 col-sm-10 mt-1 mb-1 cartasMenu container-fluid order-md-6 p-4 overflow-hidden" >
+            <div class="col carta-f">
+              <h1 class="fs-2 bg-gradient">Propuesta por el medio ambiente</h1>
+              <p >Entendemos que las actividades que realizamos día a día pueden tener impacto en nuestra comunidad. Por lo que estamos comprometidos a minimizar el impacto que generamos a través de diferentes acciones:
+
+                Nos preocupamos por reducir los efectos ecológicos que pueden tener nuestras operaciones.
+                Les damos las herramientas a nuestros clientes para que puedan separar nuestros residuos para reciclar.
+                 Trabajamos en conjunto con Mamaland para distribuir bolsas biodegradables compostables en Kioscos de diarios cercanos a nuestros locales. Fomentamos la reutilización de vasos para el Refill.</p>
+                <img src="../images/3-puntos-de-vista-sobre-el-mercado-del-reciclaje.jpg" class="card-img-top imagenFranq imgHover" alt="..." height="410">
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-center row row-cols-1 row-cols-md-3 g-4 mt-1 mb-1 cartasMenu container-fluid p-4 order-md-2">
+              <div class="col carta-f overflow-auto">
+                <h1 class="fs-2 bg-gradient">Nuestra carne</h1>
+                <p >Trabajamos con carne que proviene de animales que nunca fueron tratados con antibióticos u hormonas o que fueron alimentados con cualquier producto derivado de animales. Nos preocupamos por nuestra carne de res y el ganado del que procede, por lo que nos aseguramos de que se críen de la mejor manera, en campo y libertad.</p>
+                  <img src="../images/MENU BURGER.jpg" class="card-img-top cartaFranq imagenFranq imgHover" alt="...">
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+       
+      </main>

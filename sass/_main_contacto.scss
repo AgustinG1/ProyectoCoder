@@ -1,0 +1,70 @@
+main{
+    .formulario{
+        background-color: $bgcolor-header;
+    }                
+        .cajaForm{
+            box-shadow: 0 0 20px 0 rgba(1, 163, 139, 0.524);
+            } 
+                                                              
+            .ContactoFormulario form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+               
+
+
+
+            .ContactoFormulario form label {
+                display: block;
+
+                 
+            }
+            }
+
+        .ContactoFormulario form p {
+            margin: 0;
+            padding: 1em;
+          
+        }   
+           
+        
+        .ContactoFormulario form .block {
+            grid-column: 1 / 3;
+        }
+                     
+            .ContactoFormulario form button,
+            .ContactoFormulario form input,
+            .ContactoFormulario form textarea {
+                width: 100%;
+                padding: .7em;
+                background: none;
+                outline: 0;
+                color: $color-secundario-letras;
+                border-bottom: 1px solid #f9af65;
+            }
+                         
+                .ContactoFormulario form button {
+                    background: #B70E21;
+                    border: 0;
+                    text-transform: uppercase;
+                    padding: 1em;
+                }
+                                                            
+                    .ContactoFormulario form button:hover,
+                    .ContactoFormulario form button:focus {
+                        background: #d63031;
+                        color: $color-secundario-letras;
+                        transition: background-color 1s ease-out;
+                        outline: 0;
+                    } 
+                             
+                                    .contact-info {
+                                        background: map-get($map: $coloresGenerales, $key: verdePrincipal);
+                                    } 
+                                    
+                                        .contact-info h4, .contact-info ul, .contact-info p {
+                                            text-align: $texto-centrado;
+                                            margin: 0 0 1rem 0;
+                                            } 
+                                                                          
+        } 
+       

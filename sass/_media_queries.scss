@@ -1,0 +1,140 @@
+/*franquicia*/
+
+@media (min-width: 576px){ main{
+    
+    .carta-f {
+        width: 80%;
+        position: relative;
+        left: 4rem;
+        }
+    
+        .imagenFranquiciaa{
+            width:($ancho/2)+160;
+        }
+    }
+            .maps{
+                width: ($ancho/2)+60;
+                height: ($altura/2)+160;
+            }       
+        
+    }
+@media (min-width: 768px){  main{
+        .carta-f {
+            width: 60%;
+        }
+            .imagenFranquiciaa{
+                width: $ancho;
+            }
+        }
+            .maps{
+                width: ($ancho/2)+32;
+                height: ($altura/2)+120;
+            }
+    }
+@media (min-width: 992px){main{
+        .carta-f {
+            width: 50%;
+
+            
+        }
+    }
+            .maps{
+                width: ($ancho/2)+80;
+                height: ($altura/2)+120;
+            }
+ 
+    }
+
+    /*formulario*/ 
+    @media (max-width: 576px){ main{
+        .formulario{
+            background-color:#058d7de5;      
+            }
+        }    
+    }
+
+    @media (max-width: 768px){ main{
+        .formulario{
+            background-color:#058d7de8;
+            }
+        }         
+    }
+
+        /*index*/
+@media (max-width: 576px) {
+    body .caja {
+        background-image: url(../images/burger_7.jpg);
+    }
+    main .imagenPortada {
+        width: 120px;
+        height: 120px;
+        margin-right: 6px;
+    }
+    main .flota {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main .ParrafoWrap {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    main .boton {
+        position: static;
+        left: 0;
+        bottom: 0;
+        display: block;
+        margin: 1rem auto;
+        width: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    body .caja {
+        background-image: url(../images/burger_7.jpg);
+    }
+    main .imagenPortada {
+        width: 140px;
+        height: 140px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    main .flota {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main .imagenContenidoPrincipal {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    main .ParrafoWrap {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    main .boton {
+        position: static;
+        left: 0;
+        bottom: 0;
+        display: block;
+        margin: 1rem auto;
+        width: 160px;
+    }
+}
+
+@media (max-width: 992px) {
+    body .caja {
+        background-image: url(../images/burger_7.jpg);
+    }
+}
+
+    /*header*/
+@media (max-width: 768px) {
+  header .logoBurguer {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+}

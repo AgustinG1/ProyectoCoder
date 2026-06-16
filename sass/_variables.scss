@@ -1,0 +1,73 @@
+$bgcolor-header:#00796B !important;
+ $body-gradiante:linear-gradient(to left, #ff5722, #ff5722,
+    #ff5722, #ff5722, #ff5722, #fd5520, #fa531e, #f8511c,
+    #f34c18, #ee4713, #ea420e, #e53d08);
+ $color-verde-oscuro: #02463e;
+ $blur-parrafo:blur(0,5px);
+ $amarillo-menu:#ff9900;
+ $color-principal: #FF5722;
+ $color-secundario-letras:#f4ecec;
+ $fuente-principal: sans-serif;
+ $justify-content-center: center;
+ $Space-between: space-between;
+ $texto-centrado: center;
+ $relative: relative;
+ $ancho: 800px;
+ $altura:400px;
+ $borde: 1px solid black;
+ $total-columnas : 10;
+ $tamaño-fuente: 12px;
+ $fuentes_negrita: bold;
+ $flex : flex;
+ $row: row;
+ $space-around :space-around;
+ $column:column;
+ $space-evenly:space-evenly;
+ $radius: 200px;
+ $margin-right:60px;
+
+
+
+
+
+/*mapas*/
+ $coloresGenerales: (
+   verdePrincipal: #00796B,
+   verdeOscuro: #02463e ,
+   naranja: #FF5722,
+   amarillo: #ff9900,
+   rojoBoton:#B70E21,  
+   blanco: blur(5px),
+   crema: #f4ecec,
+   negro:#000,
+   );
+
+ $envolturaInicio: (
+   cajita: rgba(243,243,243,0.2),
+   bordess: solid 1px #ffffff40 ,
+   sombra: 0 0 0 1px #222,
+   ancho: 350px,  
+   blur: blur(5px),
+   bordes: 0 10px 30px #000,
+   );
+
+   
+   
+$justify:(
+   center: center,
+   izquierda: left,
+   derecha: right,
+   space-around: space-around,
+   space-between: space-between,
+   space-evenly: space-evenly,
+);
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+ 
