@@ -1,7 +1,11 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 body{
     background-image: $body-gradiante;
     margin: 0%;
-    height: 100vh;
+    min-height: 100vh;
 
         .bodyFranquicia{
             background-image: url(../images/local_dos.jpg);
@@ -10,9 +14,9 @@ body{
             }
             .caja{
                     background-image: url(../images/burger.jpg);
-                    height: 70%;
-                    
-                    
+                    background-size: cover;
+                    background-position: center;
+                    height: 70vh;
                 }   
                     section .wrap{
                         background-color: map-get($map: $envolturaInicio, $key:cajita );

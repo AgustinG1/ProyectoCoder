@@ -2,12 +2,6 @@
 
 @media (min-width: 576px){ main{
     
-    .carta-f {
-        width: 80%;
-        position: relative;
-        left: 4rem;
-        }
-    
         .imagenFranquiciaa{
             width:($ancho/2)+160;
         }
@@ -19,9 +13,6 @@
         
     }
 @media (min-width: 768px){  main{
-        .carta-f {
-            width: 60%;
-        }
             .imagenFranquiciaa{
                 width: $ancho;
             }
@@ -31,13 +22,7 @@
                 height: ($altura/2)+120;
             }
     }
-@media (min-width: 992px){main{
-        .carta-f {
-            width: 50%;
-
-            
-        }
-    }
+@media (min-width: 992px){
             .maps{
                 width: ($ancho/2)+80;
                 height: ($altura/2)+120;
@@ -68,12 +53,13 @@
     main .imagenPortada {
         width: 120px;
         height: 120px;
-        margin-right: 6px;
+        margin-right: 0;
     }
     main .flota {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 12px;
     }
     main .ParrafoWrap {
         width: 90%;
@@ -97,13 +83,14 @@
     main .imagenPortada {
         width: 140px;
         height: 140px;
-        margin-right: 8px;
-        margin-bottom: 8px;
+        margin-right: 0;
+        margin-bottom: 0;
     }
     main .flota {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 16px;
     }
     main .imagenContenidoPrincipal {
         height: auto;
