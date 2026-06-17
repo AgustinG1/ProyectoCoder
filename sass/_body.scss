@@ -20,6 +20,10 @@ body{
                         backdrop-filter: map-get($map:$envolturaInicio , $key: blur);
                         border: map-get($map: $envolturaInicio, $key:bordes ) ;
                         border: map-get($map: $envolturaInicio, $key:bordess ) ;
+                        overflow: hidden; /* evita que las animaciones desborden */
+                        box-sizing: border-box; /* asegura cálculo de ancho consistente */
+                        max-width: 100%;
+                        transform-origin: center; /* la animación se expande desde el centro */
                         
                     }
                     .parraf{
@@ -62,4 +66,3 @@ body{
         top: 9rem;
     }
     
- 
